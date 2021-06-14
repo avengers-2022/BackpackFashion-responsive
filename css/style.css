@@ -1,0 +1,87 @@
+/* Global CSS */
+
+*{
+    margin:0;
+    padding:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue', cursive;
+}
+p,a{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header Section Start */
+
+.header{
+    background:#fff7e9;
+}
+
+.navbar{
+    padding: 20px 0px;
+}
+.logo{
+    width: 300px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color:black;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 18px;
+    padding: 0px 15px;
+    margin: 0px 10px;
+    font-weight: 600;
+    transition: all 0.5s linear;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #7dc584;
+    
+}
+
+/* banner part start */
+
+.banner .banner-content{
+    margin-top:80px;
+}
+.banner .banner-content h1{
+    font-size:85px;
+    color: #363958
+}
+.banner .banner-content span{
+    color: #76c27e;
+}
+.banner .banner-content p{
+    font-size: 16px;
+    color: #3E3E3E;
+    padding-right: 30%;
+    margin: 20px 0px;
+    font-weight: 500;
+}
+
+.banner .banner-bag{
+    margin-top: -521px;
+    padding-left: 20px;
+    width: 96%;
+}
+.btn-buy{
+    background: #2A1E59;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+.fa{
+    font-size: 17px;
+    padding-right: 5px;
+}
+
+/* Header Section End */
