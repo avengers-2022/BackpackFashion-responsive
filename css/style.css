@@ -19,6 +19,8 @@ p,a{
     background:#fff7e9;
 }
 
+/* navbar start */
+
 .navbar{
     padding: 20px 0px;
 }
@@ -43,7 +45,7 @@ p,a{
     color: #7dc584;
     
 }
-
+/* navbar end */
 /* banner part start */
 
 .banner .banner-content{
@@ -85,3 +87,74 @@ p,a{
 }
 
 /* Header Section End */
+
+/* feature section start */
+
+.feature{
+    padding: 80px 0px;
+}
+.feature-content{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.feature-content h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.feature-content p{
+    padding-right: 39%;
+    font-size: 14px;
+}
+.features{
+    padding: 25px 20px 0px;
+}
+.feature-pic{
+    padding: 40px 0px;
+}
+
+
+/* feature section End */
+/* Casual backpack Start */
+
+.casual-backpack{
+    padding:80px 0px;
+}
+.casual-heading{
+    color: #363957;
+    font-size: 50px;
+    padding: 30px 0px;
+}
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 5%);
+    border-radius: 20px;
+    padding: 20px;
+}
+.card-img{
+    text-align: center;
+    background: #f1f1f1;
+    height: 280px;
+    border-radius: 25px;
+}
+.card-img img{
+    width: 60%;
+    margin-top: 25px;
+}
+.card-body{
+    padding: 25px 0px 0px 0px;
+}
+.card-body h5{
+    font-family: 'Roboto', sans-serif;
+}
+.card-btn{
+    float:right; 
+}
+.bag-price{
+    color: #76C27E;
+}
+
+/* Casual backpack End */
+
