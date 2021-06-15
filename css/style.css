@@ -11,6 +11,24 @@ h1,h2,h3,h4,h5,h6{
 p,a{
     font-family: 'Roboto', sans-serif;
 }
+.btn-buy{
+    background: #2A1E59;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    transition: all 0.5s linear;
+}
+.btn-buy:hover {
+    background: #76c27e;
+}
+.fa{
+    font-size: 17px;
+    padding-right: 5px;
+}
 
 
 /* Header Section Start */
@@ -71,20 +89,7 @@ p,a{
     padding-left: 20px;
     width: 96%;
 }
-.btn-buy{
-    background: #2A1E59;
-    color: #fff;
-    padding: 15px 30px;
-    font-size: 12px;
-    font-weight: 700;
-    border-radius: 5px;
-    border: none;
-    margin-top: 20px;
-}
-.fa{
-    font-size: 17px;
-    padding-right: 5px;
-}
+
 
 /* Header Section End */
 
@@ -157,4 +162,103 @@ p,a{
 }
 
 /* Casual backpack End */
+
+
+/*Contact Section CSS Start*/
+
+.contact{
+    padding: 80px 0px;
+}
+.contact-banner{
+    margin-right: 60px;
+
+}
+.contact-banner .banner-bag{
+    margin-top: -521px;
+    padding-left: 20px;
+    width: 96%;
+}
+
+
+.contact .form-row{
+    margin-bottom: 20px;
+}
+.contact .form-control{
+    padding: 7px;
+    border-radius: 0;
+    border: 1px solid;
+}
+.contact .btnSubmit{
+    background: #2A1E59;
+    color: #fff;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 0;
+    transition: all 0.5s linear;
+}
+.contact .btnSubmit:hover{
+    background: #76c27e;
+}
+
+
+/*Contact Section CSS End*/
+
+/* Footer Section Start */
+
+.footer{
+    width: 100%;
+    float: left;
+    background: #202b30;
+    padding: 20px 0;
+    color:white;
+    text-align: center;
+}
+
+/* Footer Section End */
+
+/*Responsive CSS Start*/
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .card-btn {
+        padding: 15px 20px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .banner .banner-bag {
+        margin-top: -340px;
+    }
+    .bag-price {
+        font-size: 30px;
+    }
+    .card-btn {
+        padding: 12px 3px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+
+    .card {
+        margin: 15px 0px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 575px){
+
+    .card {
+        margin: 15px 0px;
+    }
+    .contact-banner .banner-bag {
+        margin-top: -239px;
+    }
+}
+
+
+/*Responsive CSS End*/
+
 
